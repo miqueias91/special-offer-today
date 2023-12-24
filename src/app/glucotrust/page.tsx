@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
-const titleProduct = 'Special Offer Today';
+const titleProduct = 'GlucoTrust Official';
+const linkProduct = 'https://bit.ly/3vfnZ6H';
 
 export default function Home() {
   return (
@@ -10,39 +11,27 @@ export default function Home() {
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">{titleProduct}</h2>
             <p className="mt-4 text-lg leading-8 text-gray-300">
-            {`We select the best offers for you today.`}
+            {`The best offer today. Don't miss the incredible chance to snag something awesome! This product, almost sold out.`}
             </p>
           </div>
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-1 lg:pt-2">
             <div className="flex flex-col items-start">            
-              <a href='https://bit.ly/3vjgZWd' target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
+              <a href={linkProduct} target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
               <button
                   type="button"
                   className="w-full flex-none rounded-md bg-indigo-500 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
                 >
-                  Neuro Rise
+                  Buy Now
                 </button>
                 </a>
             </div>
-
             <div className="flex flex-col items-start">            
-              <a href='https://bit.ly/3vfnZ6H' target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
+              <a href={linkProduct} target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
               <button
                   type="button"
-                  className="w-full flex-none rounded-md bg-indigo-500 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                  className="w-full flex-none rounded-md bg-indigo-400 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
-                  GlucoTrust
-                </button>
-                </a>
-            </div>
-
-            <div className="flex flex-col items-start">            
-              <a href='https://bit.ly/3tEUhYa' target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
-              <button
-                  type="button"
-                  className="w-full flex-none rounded-md bg-indigo-500 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                >
-                  Joint Genesis
+                  More Details
                 </button>
                 </a>
             </div>
