@@ -5,7 +5,7 @@ const linkProduct = 'https://bit.ly/3vjgZWd';
 
 export default function Home() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+    <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32 h-screen">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
@@ -19,9 +19,19 @@ export default function Home() {
               <a href={linkProduct} target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
               <button
                   type="button"
-                  className="w-full flex-none rounded-md bg-indigo-500 px-4 py-4 shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                  className="w-full flex-none rounded-md bg-indigo-500 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
                 >
                   Buy Now
+                </button>
+                </a>
+            </div>
+            <div className="flex flex-col items-start">            
+              <a href={linkProduct} target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
+              <button
+                  type="button"
+                  className="w-full flex-none rounded-md bg-indigo-400 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                >
+                  More Details
                 </button>
                 </a>
             </div>
