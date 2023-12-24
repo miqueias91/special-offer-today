@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
-const titleProduct = 'Neuro Rise Official Official';
-const linkProduct = 'https://hop.clickbank.net/?custom=0&affiliate=miqueias91&vendor=neurorise&pid=new&tid=google';
+const titleProduct = 'Neuro Rise Official';
+const linkProduct = 'https://bit.ly/3vjgZWd';
 
 export default function Home() {
   return (
