@@ -11,7 +11,7 @@ export default function Home() {
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">{titleProduct}</h2>
             <p className="mt-4 text-lg leading-8 text-gray-300">
-            {`The best offer today. Don't miss the incredible chance to snag something awesome! This product, almost sold out.`}
+            {`Are you tired of using products that don't work? Are you looking for something that will really make a difference? If so, our product is perfect for you.`}
             </p>
           </div>
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-1 lg:pt-2">
