@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-1 lg:pt-2">
             <div className="flex flex-col items-start">
-              <a href={linkProduct} target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
+              <a href={linkProduct} className="w-full text-xl font-bold text-white leading-6 text-white">
                 <button
                   type="button"
                   className="w-full flex-none rounded-md bg-indigo-500 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
@@ -26,7 +26,7 @@ export default function Home() {
               </a>
             </div>
             <div className="flex flex-col items-start">
-              <a href={linkProduct} target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
+              <a href={linkProduct} className="w-full text-xl font-bold text-white leading-6 text-white">
                 <button
                   type="button"
                   className="w-full flex-none rounded-md bg-indigo-400 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
