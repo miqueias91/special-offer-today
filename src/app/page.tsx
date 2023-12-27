@@ -57,9 +57,21 @@ export default function Home() {
                 </button>
                 </a>
             </div>
+            <div className="flex flex-col items-start">            
+              <a href='https://bit.ly/3RVikvt' target='_BLANK' className="w-full text-xl font-bold text-white leading-6 text-white">
+              <button
+                  type="button"
+                  className="w-full flex-none rounded-md bg-indigo-500 px-4 py-4 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                >
+                  BioVanish
+                </button>
+                </a>
+            </div>
+
           </dl>
         </div>
       </div>
+
       <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
         <div
           className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
