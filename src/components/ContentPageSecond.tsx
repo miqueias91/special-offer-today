@@ -2,7 +2,7 @@ import { Box, Grid, Typography } from '@mui/material';
 import Link from 'next/link'
 import Image from 'next/image'
 
-interface ContentPageProps {
+interface ContentPageSecondProps {
     titleProduct: string
     title: string
     primaryBgColor: string
@@ -11,14 +11,14 @@ interface ContentPageProps {
     pathImg: string
 }
 
-export default function ContentPage({
+export default function ContentPageSecond({
     titleProduct,
     title,
     primaryBgColor,
     primaryColor,
     linkProduct,
     pathImg,
-  }: ContentPageProps) {
+  }: ContentPageSecondProps) {
   return (
     <Box sx={{textAlign: 'center'}} paddingBottom={4}>
         <Grid container>

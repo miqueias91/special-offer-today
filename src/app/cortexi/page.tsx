@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import ContentPage from '../../components/ContentPage'
+import ContentPageSecond from '../../components/ContentPageSecond'
 
 const titleProduct = 'Cortexi Official';
 
@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <>
-        <ContentPage 
+        <ContentPageSecond 
             titleProduct={titleProduct} 
             title={title} 
             primaryBgColor={primaryBgColor} 
