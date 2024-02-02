@@ -44,8 +44,8 @@ export default function ContentPageSecond({
                 <Link href={linkProduct}>
                     <Image
                         src={pathImg}
-                        width={900}
-                        height={400}
+                        width={800}
+                        height={300}
                         alt="Picture of the author"
                         />
                 </Link>
