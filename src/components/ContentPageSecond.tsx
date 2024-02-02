@@ -6,6 +6,7 @@ interface ContentPageSecondProps {
     titleProduct: string
     title: string
     primaryBgColor: string
+    bgColor: string
     primaryColor: string
     linkProduct: string
     pathImg: string
@@ -15,12 +16,13 @@ export default function ContentPageSecond({
     titleProduct,
     title,
     primaryBgColor,
+    bgColor,
     primaryColor,
     linkProduct,
     pathImg,
   }: ContentPageSecondProps) {
   return (
-    <Box sx={{textAlign: 'center'}} paddingBottom={4}>
+    <Box sx={{textAlign: 'center'}} paddingBottom={4} bgcolor={bgColor}>
         <Grid container>
             <Grid item md={12}>
                 <Box bgcolor={primaryBgColor} color={primaryColor}  py='1rem' px='0.5rem'>
