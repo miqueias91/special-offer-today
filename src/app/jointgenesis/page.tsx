@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import ContentPageSecond from '../../components/ContentPageSecond'
+import ContentPageFirst from '../../components/ContentPageFirst'
 
 const titleProduct = 'Joint Genesis Official';
 
@@ -13,14 +14,9 @@ export default function Home() {
 
   return (
     <>
-        <ContentPageSecond 
-            titleProduct={titleProduct} 
-            title={title} 
-            primaryBgColor={primaryBgColor} 
-            bgColor={bgColor} 
-            primaryColor={primaryColor} 
+        <ContentPageFirst 
+            titleProduct={titleProduct}
             linkProduct={linkProduct} 
-            pathImg={pathImg} 
         />
     </>
   )
