@@ -9,7 +9,7 @@ export default function Home() {
     const primaryBgColor = '#323FAF'
     const bgColor = '#eee'
     const primaryColor = '#fff'
-    const linkProduct = 'https://df529cqp14n0y7ej2lkyraje05.hop.clickbank.net/?tid=google';
+    const linkProduct = 'https://4036blma82yyxxd9wof8xcec0l.hop.clickbank.net/?tid=google';
     const pathImg = '/img/puravive/img.png';
 
   return (

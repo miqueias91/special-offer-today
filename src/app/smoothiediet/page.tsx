@@ -8,7 +8,7 @@ export default function Home() {
     const primaryBgColor = '#e20045'
     const bgColor = '#fefaf1'
     const primaryColor = '#fff'
-    const linkProduct = 'https://86828hndw8j611dp-ipik3lb6h.hop.clickbank.net/?tid=google';
+    const linkProduct = 'https://cca938vm-5nxxxghomwerzs4ui.hop.clickbank.net/?tid=google';
     const pathImg = '/img/smoothiediet/img.png';
 
   return (

@@ -9,7 +9,7 @@ export default function Home() {
   const primaryBgColor = '#049484'
   const bgColor = '#f4f4fc'
   const primaryColor = '#fff'
-  const linkProduct = 'https://hop.clickbank.net/?affiliate=miqueias91&vendor=jointgen&v=bvsl&tid=google';
+  const linkProduct = 'https://5b9fcesnwct4t7760dqpv5qkbj.hop.clickbank.net/?tid=google';
   const pathImg = '/img/jointgenesis/img.png';
 
   return (
